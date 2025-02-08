@@ -288,10 +288,6 @@ public class EOSTransportManager : IEOSSubManager
     /// </summary>
     public EOSTransportManager()
     {
-#if !COM_UNITY_MODULE_NETCODE
-        Debug.LogError("EOSTransportManager: Netcode for GameObjects package not installed");
-#endif
-
         Clear();
     }
 
@@ -300,10 +296,6 @@ public class EOSTransportManager : IEOSSubManager
     /// </summary>
     public EOSTransportManager(ProductUserId overrideId)
     {
-#if !COM_UNITY_MODULE_NETCODE
-        Debug.LogError("EOSTransportManager: Netcode for GameObjects package not installed");
-#endif
-
         Clear();
         LocalUserIdOverride = overrideId;
     }
