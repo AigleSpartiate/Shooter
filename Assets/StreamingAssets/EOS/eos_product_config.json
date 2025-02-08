@@ -1,0 +1,38 @@
+{
+  "ProductName": "LDBL",
+  "ProductId": "5a7e9789c4904e19b0e2202a1266d6ee",
+  "ProductVersion": "1.0",
+  "imported": true,
+  "Clients": [
+    {
+      "Value": {
+        "ClientId": "xyza7891qWYdVpZ8rIKTU4LGpwOCSmpa",
+        "ClientSecret": "GUZRoS2xaEbmNMm6ViNYbIs7j+Kmp3hnQg+yRb/JcO8",
+        "EncryptionKey": "526F4487A7A04A01054D5D644A716C87CF9EA84F924AF1B4887F712A12BD966D"
+      },
+      "Name": "Client"
+    }
+  ],
+  "Environments": {
+    "Deployments": [
+      {
+        "Value": {
+          "SandboxId": {
+            "Value": "18ba5fb63eac44ca9b74a88cee58c94b"
+          },
+          "DeploymentId": "c42c686c68464dcea993e685370f862d"
+        },
+        "Name": "Deployment"
+      }
+    ],
+    "Sandboxes": [
+      {
+        "Value": {
+          "Value": "18ba5fb63eac44ca9b74a88cee58c94b"
+        },
+        "Name": "Sandbox"
+      }
+    ]
+  },
+  "schemaVersion": "1.0"
+}
